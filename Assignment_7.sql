@@ -1,4 +1,4 @@
---- Assignment 7 ---
+--- MySQL Script ---
 
 --- 1a ---
 use sakila;
