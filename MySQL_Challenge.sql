@@ -281,12 +281,8 @@ INNER JOIN category ON film_category.category_id = category.category_id
 GROUP BY category.name
 ORDER BY SUM(amount) DESC LIMIT 5;
 
-
 --- 8b ---
 SELECT * from gross_revenue;
 
 --- 8c ---
 DROP VIEW gross_revenue;
-
-
-
