@@ -282,7 +282,6 @@ GROUP BY category.name
 ORDER BY SUM(amount) DESC LIMIT 5;
 
 
-
 --- 8b ---
 SELECT * from gross_revenue;
 
